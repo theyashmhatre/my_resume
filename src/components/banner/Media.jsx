@@ -1,6 +1,6 @@
 import React from 'react'
-import { FaLinkedinIn, FaReact, FaNodeJs } from "react-icons/fa";
-import { SiMongodb, SiExpress, SiGithub, SiGmail } from "react-icons/si";
+import { FaLinkedinIn, FaReact, FaNodeJs, FaJava } from "react-icons/fa";
+import { SiMongodb, SiExpress, SiGithub, SiGmail, SiSpringboot, SiMysql } from "react-icons/si";
 const Media = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -28,18 +28,19 @@ const Media = () => {
           MY WEB STACK
         </h2>
         <div className="flex gap-4">
-          <a href="javascript:void(0);" title='MongoDB' className="bannerIcon">
-            <SiMongodb />
+          <a href="javascript:void(0);" title='Java' className="bannerIcon">
+            <FaJava />
           </a>
-          <a href="javascript:void(0);" title='Express.js' className="bannerIcon">
-            <SiExpress />
+          <a href="javascript:void(0);" title='SpringBoot' className="bannerIcon">
+            <SiSpringboot />
           </a>
           <a href="javascript:void(0);" title='React.js' className="bannerIcon">
             <FaReact />
           </a>
-          <a href="javascript:void(0);" title='Node.js' className="bannerIcon">
-            <FaNodeJs />
+          <a href="javascript:void(0);" title='MySQL' className="bannerIcon">
+            <SiMysql />
           </a>
+
         </div>
       </div>
     </div>
